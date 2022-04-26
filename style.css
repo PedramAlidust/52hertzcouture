@@ -1,0 +1,209 @@
+/* General */
+@font-face {
+  font-family: neuehanskendrick;
+  src: url("assets/fonts/neuehanskendrick.woff2");
+}
+
+body {
+  font-family: neuehanskendrick !important;
+}
+
+.text-justify {
+  text-align: justify;
+  text-align-last: right;
+  direction: rtl;
+}
+
+.category_broadcrumps {
+  background-color: #f0f0f0 !important;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+/* navbar component style */
+nav {
+  direction: ltr;
+}
+
+.bar {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+}
+
+.nav-border {
+  border: none;
+}
+
+/*slide component style */
+.slider_background {
+  background-image: url("assets/pictures/bg-slide2-h1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .slider_background {
+    background-size: 100% 100%;
+    min-height: 40vh;
+  }
+}
+
+.slide_intro {
+  font-weight: bold;
+  color: white;
+  margin-top: -30%;
+}
+
+@media (max-width: 768px) {
+  .slide_intro {
+    font-size: 15pt !important;
+  }
+}
+
+.slide_intro_short {
+  color: white;
+  margin-top: -1.5%;
+}
+
+@media (max-width: 768px) {
+  .slide_intro_short {
+    font-size: 12pt !important;
+  }
+}
+
+.arraval-text {
+  font-size: 9pt;
+  letter-spacing: 5px;
+}
+
+/* trends component style */
+.service_background_one {
+  background-image: url("assets/pictures/product-32-450x563.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  min-height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .service_background_one {
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 70vh;
+  }
+}
+
+.service_background_two {
+  background-image: url("assets/pictures/product-33-450x563.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  min-height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .service_background_two {
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 70vh;
+  }
+}
+
+.service_background_three {
+  background-image: url("assets/pictures/product-29-1-450x563.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  min-height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .service_background_three {
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 70vh;
+  }
+}
+
+/* collection section */
+.sandel-background {
+  background-image: url("assets/pictures/img2-home1.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+} 
+
+.collec-text {
+  margin-left: -45px;
+  margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+  .collec-text {
+    margin-left: 10px;
+    margin-top: 0px;
+  } 
+}
+
+/* product component section */
+.res-img {
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  .res-img {
+    width: 40% !important;
+  }
+}
+
+.img_hover {
+  position: relative;
+}
+
+.img_hover:hover::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 4px;
+  background: url("assets/pictures/plus-256.png") center center no-repeat;
+  background-color: rgba(60, 59, 67, 0.2);
+  background-size: 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+/* discount section */
+.discount-number {
+  color: #cf9147;
+}
+
+.diccount-bg {
+  background-image: url("assets/pictures/img-bag.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.diccount-bg2 {
+  background-image: url("assets/pictures/img-sandal.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.disc-img-title:hover {
+  color:  #cf9147;
+  transition: 1s;
+}
+
+
+
